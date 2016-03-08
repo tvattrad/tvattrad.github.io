@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+
+@font-stack: 'Lato', sans-serif;
+@primary-color: #111;
+@bg-color: #eee;
+
+body {
+    background: @bg-color;
+    font-family: @font-stack;
+    font-weight: 300;
+    color: @primary-color;
+}
+
+.grid-container {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd;
+    border-width: 0 1px 0 1px;
+    background: #fff;
+    padding:0 !important;
+}
+[class^="grid-"] {
+    padding:20px;
+}
+
+.logoContainer {
+    text-align: center;
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.btn {
+    display:inline-block;
+    border-radius: 5px;
+    &.btn-blue {
+        @bg:#13769a;
+        background:@bg;
+        border:1px solid fade(darken(@bg, 10%),50%);
+        color:#fff;
+        text-shadow: 0 3px darken(@bg, 10%);
+        box-shadow: 0 3px darken(@bg, 10%);
+    }
+
+    &.btn-lg {
+        text-transform: uppercase;
+        padding:10px 15px;
+        font-size: 1.4em;
+    }
+}
+strong {
+    font-weight: 500;
+}
+.adsbygoogle {
+    display: block;
+    width: 320px;
+    height: 100px;
+    @media (min-width:500px) {
+        width: 468px;
+        height: 60px;
+    }
+}
+.puff-quote {
+    div.img {
+
+        border-radius: 100px;
+        border: 2px solid white;
+        -webkit-box-shadow: 0 1px 7px 1px rgba(186, 186, 197, .75);
+        -moz-box-shadow: 0 1px 7px 1px rgba(186, 186, 197, .75);
+        box-shadow: 0 1px 7px 1px rgba(186, 186, 197, .75);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+
+//        width:60px;
+//        height:60px;
+//        margin:20px;
+        background-position: center;
+        background-size: cover;
+
+        border-radius: 50px;
+        float:left;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+}
+.puff1 {
+    @start: #F5907F;
+    @end: #7E7394;
+    background: linear-gradient(to right, @start, @end);
+    font-family: Futura;
+
+    & > h1 {
+        text-align: center;
+        font-size: 3.2em;
+        color:#fff;
+        margin-bottom: 20px;
+    }
+    @media (min-width: 768px) {
+        & > h1 {
+            text-align: left;
+            font-size: 7em;
+            color:#fff;
+            margin-bottom: 0;
+        }
+    }
+
+    & > div.buttons {
+        margin-left: 50px;
+        margin-top: 45px;
+        float:left;
+
+    }
+    & > div.bestInTest {
+        float:left;
+        text-align: center;
+        display: inline-block;
+        padding-top: 25px;
+        & > span {
+            color:#000;
+
+            &.best {
+                font-size: 1.75em;
+                display: block;
+            }
+            &.year {
+                font-size: 4em;
+                display: block;
+            }
+        }
+    }
+    & > div.bestInTestList {
+        background:#fff;
+        padding: 10px 15px;
+        float:right;
+        text-align: center;
+        display: inline-block;
+        & > hr {
+            border:2px solid #C42026;
+        }
+        & > span {
+            color:#000;
+
+            &.best {
+                font-size: 1.75em;
+                display: block;
+            }
+            &.year {
+                font-size: 4em;
+                display: block;
+            }
+        }
+    }
+}
+
+.puffAdsRight {
+    background: #ddd;
+}
