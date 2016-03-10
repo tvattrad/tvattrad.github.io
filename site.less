@@ -11,7 +11,7 @@ body {
     color: @primary-color;
 }
 
-.grid-container {
+.white-box {
     border: 1px solid #ddd;
     box-shadow: 0 0 5px #ddd;
     border-width: 0 1px 0 1px;
@@ -21,21 +21,76 @@ body {
 [class^="grid-"] {
     padding:20px;
 }
+.header {
 
-.logoContainer {
+    background: #41053d;
+    margin-bottom: 20px;
+    //padding:40px;
     text-align: center;
     @media (min-width: 768px) {
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
         text-align: left;
     }
 }
+.content {
+    @media (min-width: 768px) {
+        margin-top: 160px;
+    }
+}
 
+#logo {
+}
+
+#menu {
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: right;
+        list-style: none;
+        margin-top: 15px;
+        & > li {
+            display:inline-block;
+            margin-left: 40px;
+        }
+    }
+
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
 .btn {
     display:inline-block;
     border-radius: 5px;
     text-decoration: none;
 
     &.btn-blue {
-        @bg:#13769a;
+        @bg:#127ea5;
+        background:@bg;
+        color:#fff;
+
+        border:1px solid fade(darken(@bg, 10%),50%);
+        text-shadow: 0 3px darken(@bg, 10%);
+        box-shadow: 0 3px darken(@bg, 10%);
+
+        &:hover {
+            background: linear-gradient(@bg, darken(@bg,10%));
+            border:1px solid fade(darken(@bg, 20%),50%);
+            text-shadow: 0 3px darken(@bg, 20%);
+            box-shadow: 0 3px darken(@bg, 20%);
+        }
+    }
+
+    &.btn-green {
+        @bg:#2bac14;
         background:@bg;
         color:#fff;
 
@@ -55,6 +110,7 @@ body {
         text-transform: uppercase;
         padding:10px 15px;
         font-size: 1.4em;
+        font-weight: 500;
     }
 }
 strong {
