@@ -1,0 +1,29 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<dom-module id="base-header">
+
+    <template>
+        <header>
+            <div class="grid-container">
+                <div class="grid-30">
+                    <img id="logo" src="/images/logo_white.png" />
+                </div>
+                <div class="grid-70">
+                    <ul id="menu">
+                        <li>
+                            <a href="#">Tvättsymboler</a>
+                        </li>
+                        <li>Fläckborttagning</li>
+                        <li>Tvättips</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </template>
+
+    <script>
+        Polymer({
+            is: "base-header"
+        });
+    </script>
+</dom-module>
