@@ -1,12 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+@font-face {
+    font-family:"Wash Care Symbols M54";
+    src: url("/fonts/Wash_Care_Symbols_M54/Wash_Care_Symbols_M54.eot?") format("eot"),
+         url("/fonts/Wash_Care_Symbols_M54/Wash_Care_Symbols_M54.woff") format("woff"),
+         url("/fonts/Wash_Care_Symbols_M54/Wash_Care_Symbols_M54.ttf") format("truetype"),
+         url("/fonts/Wash_Care_Symbols_M54/Wash_Care_Symbols_M54.svg#WashCareSymbolsM54") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
 
 //@font-stack:'tk-europa', 'Lato', sans-serif;
 @primary-color: #111;
 @bg-color: #eee;
 
 body {
-    //background-image: url("../i/tour/noise.png"), linear-gradient(50deg, rgb(255, 65, 105) 0px, rgb(124, 38, 248) 100%);
-    background-image: url(images/bubbles.jpg), linear-gradient(50deg, rgb(255, 65, 105) 0px, rgb(124, 38, 248) 100%);
+    background-image: linear-gradient(50deg, rgba(145, 65, 255, 0.6) 0px, rgba(38, 248, 111, 0.6) 100%), url(images/bubbles.jpg);
     background-attachment: fixed;
     background-size: cover;
 
@@ -17,27 +26,99 @@ body {
     font-weight: 300;
     color: @primary-color;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+img {
+    width:100%;
+}
+.washing-symbol-container {
+    background:rgba(0,0,0,0.8);
+    padding:20px;
+    margin:20px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    position: relative;
+    z-index: 1;
+    .washing-symbol {
+        font-family:"Wash Care Symbols M54";
+        font-size: 64px;
+        font-weight: 400;
+        display: block;
 
-.white-box {
-    border: 1px solid #ddd;
-    box-shadow: 0 0 5px #ddd;
-    border-width: 0 1px 0 1px;
-    background: #fff;
-    padding:0 !important;
+    }
+    .description {
+        position: absolute;
+        bottom:20px;
+        left:20px;
+        right:20px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
 }
 
 .puff {
     display:block;
-    padding-top:200px;
-    &.transparent {
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+    &.first {
+        padding-top:190px;
+        padding-bottom:160px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 6.5em;
+        }
+        h2 {
+            font-size: 5.5em;
+        }
+        h3 {
+            font-size: 4.5em;
+        }
+        h4 {
+            font-size: 3.5em;
+        }
+        h5 {
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.3em;
+            font-weight: 700;
+
+        }
+    }
+
+    &.transparent {
+        color:#fff;
     }
     &.semi-transparent {
-
+        color:#fff;
+        background: rgba(0,0,0,0.5);
     }
     &.white {
+        color:#000;
         background:#fff;
-
+    }
+    &.black {
+        color:#fff;
+        background:#000;
     }
 }
 
@@ -49,6 +130,7 @@ header {
     margin-bottom: 20px;
     text-align: center;
     font-size:18px;
+    z-index: 2;
 
     @media (min-width: 768px) {
         position: fixed;
@@ -74,6 +156,8 @@ header {
 }
 
 #logo {
+    height:30px;
+    width:auto;
 }
 
 #menu {
@@ -84,7 +168,7 @@ header {
     @media (min-width: 768px) {
         text-align: right;
         list-style: none;
-        margin-top: 15px;
+        margin-top: 5px;
         & > li {
             display:inline-block;
             margin-left: 40px;
@@ -101,23 +185,15 @@ header {
 }
 .btn {
     display:inline-block;
-    border-radius: 10px;
+    border-radius: 50px;
     text-decoration: none;
 
-    &.btn-blue {
-        @bg:#127ea5;
-        background:@bg;
-        color:#fff;
-
-        border:1px solid fade(darken(@bg, 10%),50%);
-        text-shadow: 0 3px darken(@bg, 10%);
-        box-shadow: 0 3px darken(@bg, 10%);
+    &.btn-white {
+        background:#fff;
+        color:#000;
 
         &:hover {
-            background: linear-gradient(@bg, darken(@bg,10%));
-            border:1px solid fade(darken(@bg, 20%),50%);
-            text-shadow: 0 3px darken(@bg, 20%);
-            box-shadow: 0 3px darken(@bg, 20%);
+            background: #eee;
         }
     }
 
@@ -140,8 +216,8 @@ header {
 
     &.btn-lg {
         text-transform: uppercase;
-        padding:10px 15px;
-        font-size: 1.4em;
+        padding:13px 25px;
+        font-size: 1.2em;
         font-weight: 500;
     }
 }
@@ -170,9 +246,6 @@ strong {
         width: 80px;
         height: 80px;
 
-//        width:60px;
-//        height:60px;
-//        margin:20px;
         background-position: center;
         background-size: cover;
 
@@ -183,74 +256,6 @@ strong {
 
     h1 {
         font-size: 1.4em;
-    }
-}
-.puff1 {
-    @start: #F5907F;
-    @end: #7E7394;
-    //font-family: futura, "futura-pt";
-    //font-weight: 500;
-
-    h1 {
-        text-align: center;
-        font-size: 3.2em;
-        color:#fff;
-        margin-bottom: 20px;
-        font-weight: 700;
-    }
-    @media (min-width: 768px) {
-        h1 {
-            font-size: 7em;
-            color:#fff;
-            margin-bottom: 0;
-        }
-    }
-
-    div.buttons {
-        margin-left: 50px;
-        margin-top: 45px;
-        float:left;
-
-    }
-    div.bestInTest {
-        float:left;
-        text-align: center;
-        display: inline-block;
-        padding-top: 25px;
-        & > span {
-            color:#000;
-
-            &.best {
-                font-size: 1.75em;
-                display: block;
-            }
-            &.year {
-                font-size: 4em;
-                display: block;
-            }
-        }
-    }
-    div.bestInTestList {
-        background:#fff;
-        padding: 10px 15px;
-        float:right;
-        text-align: center;
-        display: inline-block;
-        & > hr {
-            border:2px solid #C42026;
-        }
-        & > span {
-            color:#000;
-
-            &.best {
-                font-size: 1.75em;
-                display: block;
-            }
-            &.year {
-                font-size: 4em;
-                display: block;
-            }
-        }
     }
 }
 
