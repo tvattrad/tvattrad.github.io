@@ -25,3 +25,18 @@ try {
 catch(e) {
 
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var toggle = document.querySelectorAll('[data-toggle]');
+    for (var i = 0; i < toggle.length; i++) {
+        toggle.item(i).onclick = function(e) {
+            var toggleItem = document.querySelector(this.dataset.toggle.trim());
+            if (toggleItem.classList.contains('hidden')) {
+                toggleItem.classList.remove('hidden');
+            } else {
+                toggleItem.classList.add('hidden');
+            }
+        };
+    }
+}, false);
+

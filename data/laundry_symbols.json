@@ -1,0 +1,103 @@
+[
+    {
+        "icon": "&#100;",
+        "text": "Ej vattentvätt",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#99;",
+        "text": "Handtvätt",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#103;",
+        "text": "Maskintvätt 30",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#109;",
+        "text": "Maskintvätt 30 skontvätt",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#104;",
+        "text": "Maskintvätt 40",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#110;",
+        "text": "Maskintvätt 40 skontvätt",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#106;",
+        "text": "Maskintvätt 60",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#112;",
+        "text": "Maskintvätt 60 skontvätt",
+        "desc": "",
+        "cat": "Tvätt"
+}, {
+        "icon": "&#67;",
+        "text": "Får ej strykas",
+        "desc": "",
+        "cat": "Strykning"
+}, {
+        "icon": "&#68;",
+        "text": "Svalt strykjärn",
+        "desc": "",
+        "cat": "Strykning"
+}, {
+        "icon": "&#69;",
+        "text": "Varmt strykjärn",
+        "desc": "",
+        "cat": "Strykning"
+}, {
+        "icon": "&#70;",
+        "text": "Hett strykjärn",
+        "desc": "",
+        "cat": "Strykning"
+}, {
+        "icon": "&#75;",
+        "text": "Ej kemtvätt",
+        "desc": "",
+        "cat": "Kem"
+}, {
+        "icon": "&#76;",
+        "text": "Endast kemtvätt med perkloreten",
+        "desc": "",
+        "cat": "Kem"
+}, {
+        "icon": "&#72;",
+        "text": "Klorblekmedel får ej användas",
+        "desc": "",
+        "cat": "Kem"
+}, {
+        "icon": "&#71;",
+        "text": "Klorblekmedel får användas",
+        "desc": "",
+        "cat": "Kem"
+}, {
+        "icon": "&#85;",
+        "text": "Får ej torktumlas",
+        "desc": "",
+        "cat": "Torkning"
+}, {
+        "icon": "&#84;",
+        "text": "Torktumlas",
+        "desc": "",
+        "cat": "Torkning"
+}, {
+        "icon": "&#54;",
+        "text": "Torkas hängande",
+        "desc": "",
+        "cat": "Torkning"
+}, {
+        "icon": "&#55;",
+        "text": "Plantorkas",
+        "desc": "",
+        "cat": "Torkning"
+}
+    ]
