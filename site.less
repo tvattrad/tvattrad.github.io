@@ -118,7 +118,7 @@ img {
     }
     &.black {
         color:#fff;
-        background:#000;
+        background:#111;
     }
 }
 
@@ -149,6 +149,20 @@ header {
         }
     }
 }
+footer {
+    background: #111;
+    color:#fff;
+
+    a {
+        font-weight: 700;
+        color:#fff;
+        text-decoration: none;
+        &:hover {
+            color:#ddd;
+        }
+    }
+}
+
 .content {
     @media (min-width: 768px) {
         margin-top: 160px;
@@ -196,21 +210,12 @@ header {
             background: #eee;
         }
     }
-
-    &.btn-green {
-        @bg:#2bac14;
-        background:@bg;
+    &.btn-black {
+        background:#000;
         color:#fff;
 
-        border:1px solid fade(darken(@bg, 10%),50%);
-        text-shadow: 0 3px darken(@bg, 10%);
-        box-shadow: 0 3px darken(@bg, 10%);
-
         &:hover {
-            background: linear-gradient(@bg, darken(@bg,10%));
-            border:1px solid fade(darken(@bg, 20%),50%);
-            text-shadow: 0 3px darken(@bg, 20%);
-            box-shadow: 0 3px darken(@bg, 20%);
+            background: #333;
         }
     }
 
