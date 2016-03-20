@@ -4,11 +4,40 @@
 
     <template>
 
+        <div class="puff white" id="stains-short">
+            <div class="grid-container">
+                <div class="grid-100 text-center">
+                    <h1>Fläckborttagning</h1>
+                </div>
+
+                <template is="dom-repeat" items="{{stains}}">
+
+                    <div class="grid-100">
+                        <h4>{{item.title}}</h4>
+                        <div class="separated_list">
+                            <template is="dom-repeat" items="{{item.desc}}">
+                                {{item}}
+                                <hr>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+
     </template>
 
     <script>
         Polymer({
-            is: "stains-full"
+            is: "stains-full",
+            ready: function() {
+                var _self = this;
+                $.getJSON('/data/stains.json', function(data) {
+                    _self.stains = data;
+                });
+            }
         });
+
     </script>
 </dom-module>

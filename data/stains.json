@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Blod",
+        "desc": ["Blöt med kallt vatten blandat med salt. Ca 1 msk salt till 1 dl vatten."]
+    },
+    {
+        "title": "Blåbär",
+        "desc": ["Blöt fläcken i het mjölk. Tvätta sedan plagget som vanligt."]
+    },
+    {
+        "title": "Bläck",
+        "desc": ["Vattenlösligt bläck behandlas med rikligt med vatten varvat med tvållösning.",
+                 "Ej vattenlösligt bläck behandlas med T-sprit. T-spriten får fläcken att lösas upp och sprida sig på plagget. Behandla den upplösta fläcken med tvållösning och skölj noggrannt med vatten. Upprepa behandlingen tills fläcken är borta."]
+    },
+    {
+        "title": "Choklad",
+        "desc": ["Fukta fläcken i ren bensin och bestryk den sedan med glycerin. Skölj därefter noga.",
+                 "Gnid in fläcken med såpa eller mjölk före tvätt. Tvätta sedan i kallt vatten."]
+    },
+    {
+        "title": "Fett",
+        "desc": ["Strö potatismjöl över fläcken och låt mjölet absorbera fettet. Låt behandlingen verka över natten. Borsta av mjölet och tvätta i varmt tvålvatten."]
+    },
+    {
+        "title": "Gräs",
+        "desc": ["Perkloreten eller T-röd används till vita plagg. Därefter ammoniak-tvålvatten och noggrann sköljning.",
+                 "På kulörta plagg behandlas fläcken med diskmedel eller grönsåpa."]
+    },
+    {
+        "title": "Kaffe",
+        "desc": ["Blöt fläcken i hett, svagt tvålvatten. Skölj noggrannt.",
+                 "Fukta fläcken med ren bensin och skölj därefter noggrannt."]
+    },
+    {
+        "title": "Läppstift/Mascara",
+        "desc": ["Förbehandla fläckarna med flytande tvättmedel och tvätta därefter som vanligt. Om fläcken inte är borta, behandla området med lacknafta och tvätta därefter på nytt."]
+    },
+    {
+        "title": "Olja",
+        "desc": ["Lös upp fläcken med ett fettlösande medel, exempelvis lacknafta. Gnid därefter in fläcken med vanlig tvål och tvätta som vanligt. Upprepa behandlingen vid behov."]
+    },
+    {
+        "title": "Rost",
+        "desc": ["Blöt fläcken med citronsaft, citronsyra eller vinsyra-vattenblandning. Skölj noggrannt."]
+    },
+    {
+        "title": "Stearin",
+        "desc": ["Skrapa av stearinet. Lägg plagget mellan två bitar hushållspapper och stryk försiktigt med strykjärn över fläcken. Överflödigt stearin sugs då upp av hushållspappret. Fukta med lacknafta och tvätta därefter som vanligt."]
+    },
+    {
+        "title": "Svett",
+        "desc": ["Behandla fläcken med ättikalösning i ungefär 15 minuter",
+                 "Blanda citronsyra (i pulverform) och handdiskmedel och sprid ut det på fläckarna. Låt ligga över natten, skölj ur och tvätta därefter som vanligt. Denna behandling lämpar sig dock inte för plagg av ömtåliga material, såsom exempelvis ylle och silke."]
+    },
+    {
+        "title": "Te",
+        "desc": ["Blek fläcken med ättika, citronsaft eller 10%-ig citronsyralösning. Skölj noggrannt."]
+    },
+    {
+        "title": "Tjära",
+        "desc": ["Lös upp fläcken med lacknafta. Tvätta sedan i så hög temperatur som plagget tål."]
+    },
+    {
+        "title": "Tomatsås",
+        "desc": ["Skölj i kallt vatten. Lägg därefter fläcken i glycerin en timme och tvätta sedan i tvålvatten."]
+    },
+    {
+        "title": "Tuggummi",
+        "desc": ["Lägg plagget i frysen med iskuber direkt på tuggummifläcken. Tuggummit kan sedan brytas bort."]
+    },
+    {
+        "title": "Vin",
+        "desc": ["Strö snabbt salt eller potatismjöl över fläcken och låt det absorbera fläcken. Behandla sedan med ljummet ammoniak-tvålvatten. Skölj noggrannt.",
+                 "Behandla fläcken med het mjölk. Tvätta därefter som vanligt."]
+    },
+    {
+        "title": "Öl",
+        "desc": ["Blanda en del vatten med en del sprit. Fukta fläcken och tvätta därefter som vanligt."]
+    }
+]

@@ -128,19 +128,39 @@ table {
     }
     &.black {
         color:#fff;
-        background:#111;
+        background:#333;
     }
+}
+
+.bullet {
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background: #fff;
+    color:#000;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 32px;
 }
 
 [class^="grid-"] {
     padding:20px;
 }
 header {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
     margin-bottom: 20px;
     text-align: center;
     font-size:18px;
     z-index: 2;
+
+    [class^="grid-"] {
+        padding: 10px;
+    }
 
     @media (min-width: 768px) {
         position: fixed;
