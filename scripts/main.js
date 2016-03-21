@@ -6,6 +6,7 @@
 
 ga('create', 'UA-74908203-1', 'auto');
 ga('send', 'pageview');
+dataLayer = [];
 
 
 (function(h,o,t,j,a,r){
@@ -30,6 +31,8 @@ $(function() {
 
     $('a[href^="#"]').on('click', function(e) {
         var href = $(this).attr('href');
+        dataLayer.push({'event': href});
+
         if (href === '#') return;
         var target = $(href);
         if (!target.length) return;
