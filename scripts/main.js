@@ -26,18 +26,24 @@ catch(e) {
 
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+$(function() {
 
-    var toggle = document.querySelectorAll('[data-toggle]');
-    for (var i = 0; i < toggle.length; i++) {
-        toggle.item(i).onclick = function(e) {
-            var toggleItem = document.querySelector(this.dataset.toggle.trim());
-            if (toggleItem.classList.contains('hidden')) {
-                toggleItem.classList.remove('hidden');
-            } else {
-                toggleItem.classList.add('hidden');
-            }
-        };
-    }
-}, false);
+    $('a[href^="#"]').on('click', function(e) {
+        var href = $(this).attr('href');
+        if (href === '#') return;
+        var target = $(href);
+        if (!target.length) return;
 
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000, 'swing');
+    });
+
+    $('[data-toggle]').on('click', function(e) {
+        e.preventDefault();
+        $(this).data('toggle').trim().split(' ').forEach(function(sel,i) {
+            $(sel).toggleClass('hidden');
+        });
+    });
+});
