@@ -43,6 +43,19 @@ table {
         padding:10px 5px;
     }
 }
+
+article {
+    column-count:3;
+    -webkit-column-count:3;
+    & > div {
+        //display: inline-block;
+        -webkit-column-break-inside:avoid;
+        -moz-column-break-inside:avoid;
+        -o-column-break-inside:avoid;
+        -ms-column-break-inside:avoid;
+        column-break-inside:avoid;
+    }
+}
 .washing-symbol-container {
     background:rgba(0,0,0,0.8);
     padding:20px;
@@ -115,7 +128,6 @@ table {
         p {
             font-size: 1.3em;
             font-weight: 700;
-
         }
     }
 
@@ -203,10 +215,21 @@ footer {
     }
 }
 
-#logo {
-    height:30px;
-    width:auto;
+#logo_container {
+    position: relative;
+    #logo {
+        height:30px;
+        width:auto;
+        position: absolute;
+    }
+    #logo_text {
+        font-size: 30px;
+        position: absolute;
+        top:-2px;
+        left: 40px;
+    }
 }
+
 
 #menu {
     color:#fff;
