@@ -10,18 +10,19 @@
                     <h1>Fläckborttagning</h1>
                 </div>
 
-                <template is="dom-repeat" items="{{stains}}">
-
-                    <div class="grid-100">
-                        <h4>{{item.title}}</h4>
-                        <div class="separated_list">
-                            <template is="dom-repeat" items="{{item.desc}}">
-                                {{item}}
-                                <hr>
-                            </template>
+                <article>
+                    <template is="dom-repeat" items="{{stains}}">
+                        <div>
+                            <h4>{{item.title}}</h4>
+                            <div class="separated_list">
+                                <template is="dom-repeat" items="{{item.desc}}">
+                                    {{item}}
+                                    <hr>
+                                </template>
+                            </div>
                         </div>
-                    </div>
-                </template>
+                    </template>
+                </article>
             </div>
         </div>
 
@@ -34,6 +35,18 @@
             ready: function() {
                 var _self = this;
                 $.getJSON('/data/stains.json', function(data) {
+                    data.forEach(function(elm, i){
+                        if (elm.desc.constructor == String) {
+                            elm.desc = [elm.desc];
+                        }
+                    });
+                    data.sort(function(a, b) {
+                        if ( a.title < b.title )
+                            return -1;
+                        if ( a.title > b.title )
+                            return 1;
+                        return 0;
+                    });
                     _self.stains = data;
                 });
             }

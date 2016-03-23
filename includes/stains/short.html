@@ -10,36 +10,12 @@
                 </div>
 
                 <article>
-                    <div>
-                        <h4>Blod</h4>
-                        Blodfläckar på kläder tas bort med vanlig tvål och kallt vatten. Använd aldrig varmt vatten.
-                    </div>
-                    <div>
-                        <h4>Blåbär</h4>
-                        Häll pressad citron, vitvinsvinäger eller ättika på blåbärsfläckar.
-                        <hr>
-                        Fläckar av blåbär kan också tas bort genom att hälla kokande vatten på fläcken om plagget tål detta.
-                        <hr>
-                        Blåbär fås effektivt bort genom att blötlägga plagget i upphettad mjölk. Låt verka, och tvätta därefter normalt i tvättmaskin.
-                    </div>
-                    <div>
-                        <h4>Bläck</h4>
-                        Använd citronsyra eller T-röd på fläcken. Gnugga tills bläcket försvinner. Tvätta sedan i tvättmaskin enligt tvättråd.
-                    </div>
-                    <div>
-                        <h4>Choklad</h4>
-                        Gnugga in mjölk eller såpalösning på fläcken. Tvätta sedan i tvättmaskin enligt tvättråd.
-                    </div>
-                    <div>
-                        <h4>Fett</h4>
-                        Tvätta fettfläcken med varm mjölk. Tvätta sedan i tvättmaskin enligt tvättråd.
-                    </div>
-                    <div>
-                    <h4>Rödvin</h4>
-                        Rödvin tas bort från textilier genom att omedelbart hälla salt på fläcken.
-                        <hr>
-                        En annan effektiv metod är att blötlägga fläcken i upphettad mjölk. Tvätta därefter som normalt.
-                    </div>
+                    <template is="dom-repeat" items="{{stains}}">
+                        <div>
+                            <h4>{{item.title}}</h4>
+                            {{item.desc}}
+                        </div>
+                    </template>
                 </article>
             </div>
         </div>
@@ -48,7 +24,21 @@
 
     <script>
         Polymer({
-            is: "stains-short"
+            is: "stains-short",
+            ready: function() {
+                var _self = this;
+                $.getJSON('/data/stains.json', function(data) {
+                    var bindData = [];
+                    data.forEach(function(elm, i){
+                        if (elm.short === true) {
+                            elm.desc = elm.desc[0];
+                            bindData.push(elm);
+                        }
+
+                    });
+                    _self.stains = bindData;
+                });
+            }
         });
     </script>
 </dom-module>
