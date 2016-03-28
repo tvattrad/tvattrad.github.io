@@ -31,7 +31,7 @@ $(function() {
 
     $('a[href^="#"]').on('click', function(e) {
         var href = $(this).attr('href');
-        dataLayer.push({'event': href});
+        dataLayer.push({'event':'nav', 'url': href});
 
         if (href === '#') return;
         var target = $(href);
