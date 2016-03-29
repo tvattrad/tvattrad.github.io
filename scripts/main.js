@@ -32,7 +32,7 @@ $(function() {
     $('#menu a[href^="#"]').on('click', function(e) {
         var href = $(this).attr('href');
 
-        ga('send', 'event', 'Navigation', 'TopNavigation', href);
+        ga('send', 'event', 'Navigation', href);
 
         if (href === '#') return;
         var target = $(href);
