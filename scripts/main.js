@@ -29,9 +29,10 @@ catch(e) {
 
 $(function() {
 
-    $('a[href^="#"]').on('click', function(e) {
+    $('#menu a[href^="#"]').on('click', function(e) {
         var href = $(this).attr('href');
-        dataLayer.push({'event':'nav', 'url': href});
+
+        ga('send', 'event', 'Navigation', 'TopNavigation', href);
 
         if (href === '#') return;
         var target = $(href);
