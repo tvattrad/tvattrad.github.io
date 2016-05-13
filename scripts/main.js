@@ -29,7 +29,7 @@ catch(e) {
 
 $(function() {
 
-    $('#menu a[href^="#"]').on('click', function(e) {
+    $('a[href^="#"]').on('click', function(e) {
         var href = $(this).attr('href');
 
         ga('send', 'event', 'Navigation', href);

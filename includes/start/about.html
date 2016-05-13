@@ -1,0 +1,61 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<dom-module id="start-about">
+
+    <template>
+        <div class="puff white">
+            <div class="grid-container">
+                <div class="grid-60">
+                    <img src="/images/laundry.jpg" style="width:80%; margin-top:50px;" />
+                </div>
+                <div class="grid-40">
+                    <h4>Om tvättråd</h4>
+                    <h5>Tvättsymboler</h5>
+                    <p>
+                        Hos oss hittar du samlad information om samtliga tvättsymboler och en förklaring till vad de betyder.
+                        <a class="btn btn-black" style="float:right;" href="#laundry_symbols-short">Till tvättsymboler</a>
+                    </p>
+                    <h5>Fläckborttagning</h5>
+                    <p>
+                        Att få bort fläckar kan ibland vara en tuff match. Vi har tips för många typer av fläckar och hur du får bort dem.
+                        <a class="btn btn-black" href="#stains-short">Fläckborttagning</a>
+                    </p>
+                    <h5>Tvättips</h5>
+                    <p>
+                        Hur tvättar jag bäst? Skall jag använda sköljmedel? Behöver jag extrasköljning? Vi rätar ut frågetecknen.
+                        <a class="btn btn-black" href="#tips-short">Tvättips</a>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="grid-100">
+                    <div id="disqus_thread"></div>
+                    <script>
+
+                    var disqus_config = function () {
+                        this.page.url = 'http://www.tvattrad.nu/index.html'; // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = 'TestComment'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+
+                        s.src = '//tvattrad.disqus.com/embed.js';
+
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "start-about"
+        });
+    </script>
+</dom-module>
