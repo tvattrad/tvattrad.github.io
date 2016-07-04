@@ -92,6 +92,8 @@
                     Hårt vatten kräver mer tvättmedel än mjukt.<br />
                     <u>Stockholm har medelhårt</u> vatten medan <u>Göteborg har mjukt</u> och <u>Malmö har hårt</u>.<br />
                     För att exakt veta hur vattnet är där du bor kan du kontakta din kommun eller köpa provstickor och testa själv.
+
+
                 </div>
 
                 <div class="grid-50">
@@ -121,7 +123,26 @@
 
     <script>
         Polymer({
-            is: "tips-short"
+            is: "tips-short",
+
+            ready: function() {
+                var _self = this;
+                $.getJSON('/data/water_hardness.json', function(data) {
+                    data.forEach(function(elm, i){
+                        if (elm.desc.constructor == String) {
+                            elm.desc = [elm.desc];
+                        }
+                    });
+                    data.sort(function(a, b) {
+                        if ( a.title < b.title )
+                            return -1;
+                        if ( a.title > b.title )
+                            return 1;
+                        return 0;
+                    });
+                    _self.stains = data;
+                });
+            }
         });
     </script>
 </dom-module>
