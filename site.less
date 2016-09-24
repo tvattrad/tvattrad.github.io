@@ -84,7 +84,13 @@ article {
         right:20px;
     }
 }
-
+hr {
+    background-color: #fff;
+    box-shadow: 2px 2px 0 #000;
+    border:none;
+    height:3px;
+    width:75%;
+}
 .spacer10 {
     margin:5px;
 }
@@ -98,6 +104,19 @@ article {
 .text-right {
     text-align: right;
 }
+.text-3d {
+    text-shadow: 2px 2px 0px #000;
+}
+.text-bright {
+
+}
+.text-dark {
+    color:#333;
+    &.text-3d {
+        text-shadow: 2px 2px 0px #fff;
+    }
+}
+
 .hidden {
     display: none;
 }
@@ -112,7 +131,7 @@ article {
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 2em;
     }
     @media (min-width: 768px) {
         h1 {
@@ -178,6 +197,9 @@ header {
     text-align: center;
     font-size:18px;
     z-index: 2;
+    position: fixed;
+    left:0;
+    right:0;
 
     [class^="grid-"] {
         padding: 10px;
@@ -222,16 +244,16 @@ footer {
 
 #logo_container {
     position: relative;
+    height:50px;
     #logo {
         height:30px;
         width:auto;
-        position: absolute;
+        position: relative;
     }
     #logo_text {
         font-size: 30px;
-        position: absolute;
-        top:-2px;
-        left: 40px;
+        position: relative;
+        top:-5px;
     }
 }
 
@@ -348,6 +370,16 @@ strong {
     span.mapText {
         font-size:20pt;
         font-weight: 700;
+        display:block;
+        text-align: center;
+    }
+
+    p.mapText-secondary {
+        margin:20px;
+        font-size:14pt;
+        font-weight: 700;
+        display:block;
+        text-align: center;
     }
 
 
