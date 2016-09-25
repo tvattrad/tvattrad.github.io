@@ -41,6 +41,20 @@
                     Vill du ha en god doft till ditt tvättmedel tillsätter du någon eterisk doftolja som tex. citronolja eller lavendel.
                     <div class="clearfix"></div>
 
+
+                    <h4>Få vit tvätt ren</h4>
+                    <div class="spacer10 clearfix"></div>
+                    <i class="bullet">1</i>
+                    Lägg en <u>diskmaskins</u>tablett i doseringsfacket för tvättmedlet.
+                    <div class="spacer10 clearfix"></div>
+                    <i class="bullet">2</i>
+                    Häll 1/2 dl ättika i sköljmedelsfacket.
+                    <div class="spacer10 clearfix"></div>
+                    <i class="bullet">3</i>
+                    Kör det program som anges på plagget, precis som vanligt.
+                    <div class="clearfix"></div>
+
+
                     <h4>Vattenhårdhet</h4>
                     Ca 80% av de svenska huhållen har <strong>mjukt vatten</strong>.<br />
                     Hårt vatten kräver mer tvättmedel än mjukt.<br />
@@ -49,7 +63,7 @@
 
                 </div>
                 <div class="grid-50">
-                    <h4>Rengöring av tvättmaskin</h4>
+                    <h4>Gör rent tvättmaskin</h4>
                     <i class="bullet">1</i>
                     Lägg 2-3 matskedar citronsyra i tvättmaskinens doseringsfack.
                     <div class="spacer10 clearfix"></div>
@@ -107,22 +121,22 @@
             is: "tips-short",
 
             ready: function() {
-                var _self = this;
-                $.getJSON('/data/water_hardness.json', function(data) {
-                    data.forEach(function(elm, i){
-                        if (elm.desc.constructor == String) {
-                            elm.desc = [elm.desc];
-                        }
-                    });
-                    data.sort(function(a, b) {
-                        if ( a.title < b.title )
-                            return -1;
-                        if ( a.title > b.title )
-                            return 1;
-                        return 0;
-                    });
-                    _self.stains = data;
-                });
+//                var _self = this;
+//                $.getJSON('/data/water_hardness.json', function(data) {
+//                    data.forEach(function(elm, i){
+//                        if (elm.desc.constructor == String) {
+//                            elm.desc = [elm.desc];
+//                        }
+//                    });
+//                    data.sort(function(a, b) {
+//                        if ( a.title < b.title )
+//                            return -1;
+//                        if ( a.title > b.title )
+//                            return 1;
+//                        return 0;
+//                    });
+//                    _self.stains = data;
+//                });
             }
         });
     </script>
