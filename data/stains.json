@@ -1,0 +1,219 @@
+[
+    {
+        "title": "Ägg",
+        "desc": "Se ”Vitvinsfläckar”"
+    },
+    {
+        "title": "Alkohol",
+        "desc": "Lägg tyget i kallt vatten och glycerin. Skölj sedan tyget i vatten med vitvinsvinäger. Tvätta därefter tyget som vanligt."
+    },
+    {
+        "title": "Asfalt eller tjära",
+        "desc": "Lägg kläderna i glycerin eller matolja. Låt det ligga i några timmar. Detta mjukar upp kläderna och fläckarna försvinner lättare. Tvätta som vanligt."
+    },
+    {
+        "title": "Bär",
+        "desc": "Om det är en ny fläck på t.ex. din vita t-shirt, doppar du den i kokande vatten med ättika i, eller i kokande mjölk.Om fläcken är äldre och solblekt, kan du då och då klämma ut citronsaft på fläcken."
+    },
+    {
+        "title": "Bläck och trycksvärta",
+        "desc": "Tvätta i vatten blandat med citronsyrelösning. Alternativt med citron eller med rabarbersaft. Man kan även prova att täcka fläcken med lite glycerin och låta ligga i några minuter innan man tvättar plagget."
+    },
+    {
+        "title": "Bruna strykjärnsfläckar",
+        "desc": "Doppa ett rent tygstycke i ättika och gnugga bort fläcken. Tvätta som vanligt."
+    },
+    {
+        "title": "Coca cola",
+        "desc": "Färska fläckar sköljs bort med kallt vatten. Gamla fläckar tas bort med ljummet vatten"
+    },
+    {
+        "title": "Frukt",
+        "desc": "Fläckar av fruktsaft tas bort med citronsyrelösning. Du behöver en halv tesked citronsyra till en liter vatten.Observera att färgade plagg riskerar att blekas av detta."
+    },
+    {
+        "title": "Grädde",
+        "desc": "Se ”Fettfläckar”"
+    },
+    {
+        "title": "Honung",
+        "desc": "Tvätta plagget med så varmt vatten det tål (se etikett på insidan av plagget)"
+    },
+    {
+        "title": "Mögel",
+        "desc": "Lägg plagget i filmjölk och låt det ligga i några dygn (gärna med några pepparrotsbitar i). Gnugga sedan fläcken med filmjölk och skölj i vatten. Upprepa behandlingen vid behov och tvätta därefter plagget som vanligt."
+    },
+    {
+        "title": "Rödvin",
+        "desc": "Strö salt over fläcken och låt ligga i ca en halvtimme. Tvätta därefter bort fläcken med tvål och vatten."
+    },
+    {
+        "title": "Smör",
+        "desc": "Se ”Fettfläckar”"
+    },
+    {
+        "title": "Socker",
+        "desc": "Skölj med varmvatten."
+    },
+    {
+        "title": "Sot",
+        "desc": "Sotfläckar behandlas med ett basiskt rengöringsmedel (pH 9-12)"
+    },
+    {
+        "title": "Spritpenna",
+        "desc": "Doppa en bomullstuss i T-röd och badda fläcken. Var dock försiktig då T-röd löser upp fläcken som då riskerar att ”spridas” till resten av tyget"
+    },
+    {
+        "title": "Urin",
+        "desc": "Urinfläckar försvinner enklast om de mjukas upp med några droppar glycerin (finns att köpa på apoteket). Därefter tvättar du tyget som vanligt och odören försvinner helt."
+    },
+    {
+        "title": "Vitvin",
+        "desc": "Skölj plagget i kallt vatten och tvätta därefter som vanligt."
+    },
+    {
+        "title": "Banan",
+        "desc": [
+            "Strö på vinsyra, blöt och massera in. Låt verka i en kvart, innan du sköljer ur det.",
+            "Droppa citron på fläcken som du låter verka, skölj ur och därefter tvätta som vanligt."
+        ]
+    },
+    {
+        "title": "Blod",
+        "desc": [
+            "Blöt med kallt vatten blandat med salt. Ca 1 msk salt till 1 dl vatten.",
+            "Fukta plagget med kallt vatten och strö på rikligt med salt. Skölj sedan plagget i kallt vatten. Använd tvål eller såpa vid behov."
+        ],
+        "short": true
+    },
+    {
+        "title": "Blåbär",
+        "desc": [
+            "Blöt fläcken i het mjölk. Tvätta sedan plagget som vanligt."
+        ]
+    },
+    {
+        "title": "Bläck",
+        "desc": [
+            "Vattenlösligt bläck behandlas med rikligt med vatten varvat med tvållösning.",
+            "Ej vattenlösligt bläck behandlas med T-sprit. T-spriten får fläcken att lösas upp och sprida sig på plagget. Behandla den upplösta fläcken med tvållösning och skölj noggrannt med vatten. Upprepa behandlingen tills fläcken är borta."
+        ]
+    },
+    {
+        "title": "Choklad",
+        "desc": [
+            "Fukta fläcken i ren bensin och bestryk den sedan med glycerin. Skölj därefter noga.",
+            "Gnid in fläcken med såpa eller mjölk före tvätt. Tvätta sedan i kallt vatten.",
+            "Är fläcken ny sköljer du snabbt av med kallt vatten och sedan tvättas plagget som vanligt. Om fläcken är gammal gnider du in den med såpa eller med mjölk. Skölj tyget noga och tvätta därefter som vanligt."
+        ],
+        "short": true
+    },
+    {
+        "title": "Fett",
+        "desc": [
+            "Strö potatismjöl över fläcken och låt mjölet absorbera fettet. Låt behandlingen verka över natten. Borsta av mjölet och tvätta i varmt tvålvatten.",
+            "Vanligtvis behandlar man fettfläckar med diskmedel som gnids in på fläcken innan tyget tvättas som vanligt i maskin. Ett bra tips är att behandla fläcken omedelbart så att den försvinner helt."
+        ],
+        "short": true
+    },
+    {
+        "title": "Gräs",
+        "desc": [
+            "Perkloreten eller T-röd används till vita plagg. Därefter ammoniak-tvålvatten och noggrann sköljning.",
+            "På kulörta plagg behandlas fläcken med diskmedel eller grönsåpa.",
+            "För att få bort gräsfläckar är det bäst att använda ren sprit eller T-röd. Gäller det kulörta plagg, gnider du in fläcken med såpa. Du kan också gnida in fläcken med glycerin innan den tvättas. Och låt det ligga i ett par timmar"
+        ]
+    },
+    {
+        "title": "Jordgubbar",
+        "desc": [
+            "Doppa fläcken i kokande vatten, på kulörta plagg kan man prova med färsk citronsaft innan plagget tvättas i maskin.",
+            "Blötlägg fläcken i sur mjölk under natten och tvätta sedan som vanligt."
+        ]
+    },
+    {
+        "title": "Kaffe",
+        "desc": [
+            "Blöt fläcken i hett, svagt tvålvatten. Skölj noggrannt.",
+            "Fukta fläcken med ren bensin och skölj därefter noggrannt.",
+            "Färska fläckar: Skölj i kallt vatten"
+        ],
+        "short": true
+    },
+    {
+        "title": "Läppstift och Mascara",
+        "desc": [
+            "Förbehandla fläckarna med flytande tvättmedel och tvätta därefter som vanligt. Om fläcken inte är borta, behandla området med lacknafta och tvätta därefter på nytt.",
+            "Gnugga med tvål om fläcken inte går bort i tvätten. Det går även bra att gnida in fläcken i diskmedel innan den tvättas"
+        ]
+    },
+    {
+        "title": "Olja",
+        "desc": [
+            "Lös upp fläcken med ett fettlösande medel, exempelvis lacknafta. Gnid därefter in fläcken med vanlig tvål och tvätta som vanligt. Upprepa behandlingen vid behov.",
+            "Gnid in fläcken med smör före tvätt och lägg i ljummet vatten"
+        ]
+    },
+    {
+        "title": "Rost",
+        "desc": [
+            "Blöt fläcken med citronsaft, citronsyra eller vinsyra-vattenblandning. Skölj noggrannt.",
+            "Rostfläckar tas på bästa sätt bort med koncentrerad vinsyra eller med citronsyra. Du kan också blöta fläcken genom att hälla på citronsaft och styrka på med varmt strykjärn. Tvätta sedan tyget"
+        ]
+    },
+    {
+        "title": "Stearin",
+        "desc": [
+            "Skrapa av stearinet. Lägg plagget mellan två bitar hushållspapper och stryk försiktigt med strykjärn över fläcken. Överflödigt stearin sugs då upp av hushållspappret. Fukta med lacknafta och tvätta därefter som vanligt.",
+            "Lägg tyget i frysen en stund. Ta sedan ut det och bryt loss stearinet. Lägg sedan en ren tygtrasa på fläcken och stryk med strykjärn för att smälta det sista av stearinet. Därefter använder du samma metod som för borttagning av Fettfläckar"
+        ]
+    },
+    {
+        "title": "Svett",
+        "desc": [
+            "Behandla fläcken med ättikalösning i ungefär 15 minuter",
+            "Blanda citronsyra (i pulverform) och handdiskmedel och sprid ut det på fläckarna. Låt ligga över natten, skölj ur och tvätta därefter som vanligt. Denna behandling lämpar sig dock inte för plagg av ömtåliga material, såsom exempelvis ylle och silke.",
+            "Doppa plagget i kokande vatten för att få bort lukten. Stryk därefter på flytande såpa och tvätta som vanligt."
+        ],
+        "short": true
+    },
+    {
+        "title": "Te",
+        "desc": [
+            "Blek fläcken med ättika, citronsaft eller 10%-ig citronsyralösning. Skölj noggrannt."
+        ]
+    },
+    {
+        "title": "Tjära",
+        "desc": [
+            "Lös upp fläcken med lacknafta. Tvätta sedan i så hög temperatur som plagget tål."
+        ]
+    },
+    {
+        "title": "Tomatsås",
+        "desc": [
+            "Skölj i kallt vatten. Lägg därefter fläcken i glycerin en timme och tvätta sedan i tvålvatten."
+        ]
+    },
+    {
+        "title": "Tuggummi",
+        "desc": [
+            "Lägg plagget i frysen med iskuber direkt på tuggummifläcken. Tuggummit kan sedan brytas bort."
+        ]
+    },
+    {
+        "title": "Vin",
+        "desc": [
+            "Strö snabbt salt eller potatismjöl över fläcken och låt det absorbera fläcken. Behandla sedan med ljummet ammoniak-tvålvatten. Skölj noggrannt.",
+            "Behandla fläcken med het mjölk. Tvätta därefter som vanligt."
+        ],
+        "short": true
+    },
+    {
+        "title": "Öl",
+        "desc": [
+            "Blanda en del vatten med en del sprit. Fukta fläcken och tvätta därefter som vanligt.",
+            "Tvätta med tvål och vatten"
+        ]
+    }
+]

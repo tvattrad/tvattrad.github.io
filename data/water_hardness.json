@@ -1,0 +1,314 @@
+[
+    {
+        "City": "Alingsås",
+        "Value": 4
+    },
+    {
+        "City": "Arvika",
+        "Value": 1
+    },
+    {
+        "City": "Avesta",
+        "Value": "5-9"
+    },
+    {
+        "City": "Bollnäs",
+        "Value": 3
+    },
+    {
+        "City": "Borlänge",
+        "Value": 8
+    },
+    {
+        "City": "Boden",
+        "Value": 1
+    },
+    {
+        "City": "Eksjö",
+        "Value": 4
+    },
+    {
+        "City": "Enköping",
+        "Value": 15
+    },
+    {
+        "City": "Eskilstuna",
+        "Value": 5
+    },
+    {
+        "City": "Eslöv",
+        "Value": 4
+    },
+    {
+        "City": "Falkenberg",
+        "Value": 6
+    },
+    {
+        "City": "Fagersta",
+        "Value": 2
+    },
+    {
+        "City": "Falköping",
+        "Value": 3
+    },
+    {
+        "City": "Falun",
+        "Value": 1
+    },
+    {
+        "City": "Gävle",
+        "Value": 7
+    },
+    {
+        "City": "Göteborg",
+        "Value": 3
+    },
+    {
+        "City": "Halmstad",
+        "Value": 4
+    },
+    {
+        "City": "Haparanda",
+        "Value": 1
+    },
+    {
+        "City": "Hedemora",
+        "Value": 9
+    },
+    {
+        "City": "Helsingborg",
+        "Value": "5-6"
+    },
+    {
+        "City": "Hudiksvall",
+        "Value": 3
+    },
+    {
+        "City": "Hultsfred",
+        "Value": 2
+    },
+    {
+        "City": "Hurva",
+        "Value": 17
+    },
+    {
+        "City": "Härnösand",
+        "Value": 2
+    },
+    {
+        "City": "Hässleholm",
+        "Value": 7
+    },
+    {
+        "City": "Jönköping",
+        "Value": 3
+    },
+    {
+        "City": "Kalmar",
+        "Value": 5
+    },
+    {
+        "City": "Kalix",
+        "Value": 1
+    },
+    {
+        "City": "Karlskrona",
+        "Value": 3
+    },
+    {
+        "City": "Karlstad",
+        "Value": 2
+    },
+    {
+        "City": "Katrineholm",
+        "Value": 4
+    },
+    {
+        "City": "Kiruna",
+        "Value": 2
+    },
+    {
+        "City": "Kristianstad",
+        "Value": 13
+    },
+    {
+        "City": "Landskrona",
+        "Value": 4
+    },
+    {
+        "City": "Lidköping",
+        "Value": 3
+    },
+    {
+        "City": "Linköping",
+        "Value": 3
+    },
+    {
+        "City": "Ljungby",
+        "Value": 4
+    },
+    {
+        "City": "Ludvika",
+        "Value": 5
+    },
+    {
+        "City": "Luleå",
+        "Value": 5
+    },
+    {
+        "City": "Lund",
+        "Value": 4
+    },
+    {
+        "City": "Lycksele",
+        "Value": 3
+    },
+    {
+        "City": "Malmö",
+        "Value": 7
+    },
+    {
+        "City": "Mariestad",
+        "Value": 3
+    },
+    {
+        "City": "Mora",
+        "Value": 4
+    },
+    {
+        "City": "Norrköping",
+        "Value": 4
+    },
+    {
+        "City": "Norrtälje",
+        "Value": "6-9"
+    },
+    {
+        "City": "Nybro",
+        "Value": 3
+    },
+    {
+        "City": "Nyköping",
+        "Value": 7
+    },
+    {
+        "City": "Nässjö",
+        "Value": 2
+    },
+    {
+        "City": "Piteå",
+        "Value": 1
+    },
+    {
+        "City": "Sala",
+        "Value": 4
+    },
+    {
+        "City": "Sandviken",
+        "Value": 4
+    },
+    {
+        "City": "Simrishamn",
+        "Value": "10-15"
+    },
+    {
+        "City": "Skara",
+        "Value": 3
+    },
+    {
+        "City": "Skellefteå",
+        "Value": 2
+    },
+    {
+        "City": "Skövde",
+        "Value": 3
+    },
+    {
+        "City": "Stockholm",
+        "Value": "5-6"
+    },
+    {
+        "City": "Sundsvall",
+        "Value": 4
+    },
+    {
+        "City": "Söderhamn",
+        "Value": 7
+    },
+    {
+        "City": "Tranås",
+        "Value": 4
+    },
+    {
+        "City": "Trelleborg",
+        "Value": 8
+    },
+    {
+        "City": "Umeå",
+        "Value": 2
+    },
+    {
+        "City": "Uppsala",
+        "Value": "14-17"
+    },
+    {
+        "City": "Varberg",
+        "Value": 6
+    },
+    {
+        "City": "Vetlanda",
+        "Value": 4
+    },
+    {
+        "City": "Vimmerby",
+        "Value": 7
+    },
+    {
+        "City": "Visby",
+        "Value": 14
+    },
+    {
+        "City": "Värnamo",
+        "Value": 8
+    },
+    {
+        "City": "Västervik",
+        "Value": 2
+    },
+    {
+        "City": "Västerås",
+        "Value": 6
+    },
+    {
+        "City": "Växjö",
+        "Value": 3
+    },
+    {
+        "City": "Ystad",
+        "Value": 8
+    },
+    {
+        "City": "Ängelholm",
+        "Value": "6-7"
+    },
+    {
+        "City": "Örebro",
+        "Value": 4
+    },
+    {
+        "City": "Öregrund",
+        "Value": 10
+    },
+    {
+        "City": "Örnsköldsvik",
+        "Value": 1
+    },
+    {
+        "City": "Östersund",
+        "Value": 2
+    },
+    {
+        "City": "Östhammar",
+        "Value": 9
+    }
+]
