@@ -254,4 +254,9 @@ ol {
     float: left;
     margin-right: 20px; }
 
+/* line 285, /Users/kodninja/Dropbox/tvattrad.v2.nu/css/main.scss */
+table thead tr {
+  background: #333;
+  color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
